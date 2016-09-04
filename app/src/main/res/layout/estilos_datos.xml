@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    android:weightSum="1"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="400dp"
+        android:layout_height="25dp"
+        android:background="@color/background_material_light"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/TvSubtituloDatos"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:layout_marginLeft="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="385dp"
+            android:layout_height="40dp"
+            android:text="950558041"
+            android:id="@+id/TvNroDato"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:gravity="center_vertical|center_horizontal" />
+
+    </LinearLayout>
+
+</LinearLayout>

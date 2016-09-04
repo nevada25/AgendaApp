@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="fitsSystemWindows">false</bool>
+    <dimen name="statusBarHeight">0dp</dimen>
+    <dimen name="space">0dp</dimen>
+    <color name="inset">#0000</color>
+    <style name="statusBarVisibility">
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <dimen name="navigation_drawer_header_margin">41dp</dimen>
+    <dimen name="status_bar_kitkat_height">25dp</dimen>
+    <dimen name="status_bar_lollipop_height">0dp</dimen>
+    <dimen name="status_bar_margin_top">25dp</dimen>
+</resources>

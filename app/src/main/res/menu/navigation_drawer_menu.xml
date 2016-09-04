@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:id="@+id/item_navigation_drawer_inbox"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="INICIO" />
+        <item
+            android:id="@+id/item_navigation_drawer_starred"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="AREAS" />
+        <item
+            android:id="@+id/item_navigation_drawer_sent_mail"
+            android:icon="@drawable/ic_contacts_black_24dp"
+            android:title="CONTACTOS" />
+
+    </group>
+
+    <item android:title="CONFIGURACION">
+        <menu>
+            <item
+                android:id="@+id/ayu"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="INFORMACION APLICACION" />
+            <item
+                android:id="@+id/Setting"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="CONFIGURAR" />
+            <item
+                android:id="@+id/Exit"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="SALIR" />
+        </menu>
+    </item>
+
+</menu>

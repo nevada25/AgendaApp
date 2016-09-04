@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+     <LinearLayout
+         android:orientation="vertical"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+          <LinearLayout
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp">
+               <android.support.design.widget.TextInputLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginRight="5dp"
+                   android:textColor="@color/abc_primary_text_material_dark">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/datosareas"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="INGRESE DATOS"
+                        android:inputType="textEmailAddress"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textStyle="bold"
+                        android:textColor="#000000" />
+
+               </android.support.design.widget.TextInputLayout>
+
+          </LinearLayout>
+
+          <ListView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/LvArea"
+              android:fastScrollEnabled="true"
+              android:layout_centerHorizontal="true"
+              android:layout_alignParentTop="true" />
+     </LinearLayout>
+
+</RelativeLayout>
